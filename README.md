@@ -9,3 +9,10 @@ Guide, mods and the Lobby Mod Kit: https://echo-mods.echoreels.workers.dev
 Windows may warn that the app is from an unknown publisher: choose **More info**, then **Run anyway**.
 
 This repository holds the releases. Echo Mods is not made by or affiliated with Ready At Dawn or Meta.
+
+## What's new
+
+**v1.1.0**
+- Mod dependencies: a mod can list the mods it needs (`"requires"` in mod.json). Installing it also installs the missing ones from the Echo Mods website and switches them on together; the mod list says when one is missing.
+- Warns when a plugin mod is installed on a game without the plugin loader.
+- Lobby mods: doorways cut through lobby walls (`CUT_` boxes), live screens (`LIVE_` materials) and moving parts (`ANIM_` objects) for mods with a plugin; Blender models stay visible deep inside a lobby mod's own rooms.

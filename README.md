@@ -13,7 +13,7 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 ## What's new
 
 **v1.1.2**
-- Add Content works on PCs where it said it could not reach the website: when Python's own HTTPS check fails (Windows had not fetched the site's root certificate yet), Echo Mods asks again through Windows' own curl. If it still cannot connect, the message says why, and %APPDATA%\EchoModspp.log has the details.
+- Add Content works on PCs where it said it could not reach the website: when Python's own HTTPS check fails (Windows had not fetched the site's root certificate yet), Echo Mods asks again through Windows' own curl. If it still cannot connect, the message says why, and `%APPDATA%\EchoMods\app.log` has the details.
 
 **v1.1.1**
 - Brings its own plugin loader (dinput8.dll) and adds it when you install a plugin mod and nothing in the game loads plugins yet. Another dinput8.dll mod you already have (ReShade, ...) keeps working: it is loaded through the new one.

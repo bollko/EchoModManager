@@ -12,6 +12,9 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.3**
+- Lobby mods with an older Lobby Cinema: instead of failing with an error, Echo Mods says the cinema on this PC is too old to combine with lobby mods (update it, or switch Lobby Cinema off in the profile).
+
 **v1.1.2**
 - Add Content works on PCs where it said it could not reach the website: when Python's own HTTPS check fails (Windows had not fetched the site's root certificate yet), Echo Mods asks again through Windows' own curl. If it still cannot connect, the message says why, and `%APPDATA%\EchoMods\app.log` has the details.
 

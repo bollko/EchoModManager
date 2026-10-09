@@ -12,6 +12,9 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.6**
+- Fixes a crash at game start with lobby mods plus Remove Lobby Culling: the plugins that switch off culling could patch the same game function at the same moment. They now take turns. Echo Mods replaces an older EchoLobby.dll the next time you press Play.
+
 **v1.1.5**
 - Lobby builds with many collision boxes are over ten times faster (the Echo Casino: about 6 minutes down to under half a minute on a fast PC). Nothing in the built lobby changes.
 

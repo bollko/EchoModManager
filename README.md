@@ -12,6 +12,9 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.4**
+- Lobby builds can no longer look stuck: the banner shows how long the build has run and what it is doing, any failure ends it with the reason (the full log is `%APPDATA%\EchoMods\lobby-build.log`), and a build still running after 20 minutes is stopped.
+
 **v1.1.3**
 - Lobby mods with an older Lobby Cinema: instead of failing with an error, Echo Mods says the cinema on this PC is too old to combine with lobby mods (update it, or switch Lobby Cinema off in the profile).
 

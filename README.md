@@ -12,6 +12,9 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.5**
+- Lobby builds with many collision boxes are over ten times faster (the Echo Casino: about 6 minutes down to under half a minute on a fast PC). Nothing in the built lobby changes.
+
 **v1.1.4**
 - Lobby builds can no longer look stuck: the banner shows how long the build has run and what it is doing, any failure ends it with the reason (the full log is `%APPDATA%\EchoMods\lobby-build.log`), and a build still running after 20 minutes is stopped.
 

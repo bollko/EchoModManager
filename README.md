@@ -12,6 +12,9 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.1**
+- Brings its own plugin loader (dinput8.dll) and adds it when you install a plugin mod and nothing in the game loads plugins yet. Another dinput8.dll mod you already have (ReShade, ...) keeps working: it is loaded through the new one.
+
 **v1.1.0**
 - Mod dependencies: a mod can list the mods it needs (`"requires"` in mod.json). Installing it also installs the missing ones from the Echo Mods website and switches them on together; the mod list says when one is missing.
 - Warns when a plugin mod is installed on a game without the plugin loader.

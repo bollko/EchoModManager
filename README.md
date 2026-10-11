@@ -12,6 +12,12 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.1.7**
+- Room in the lobby: all lobby mods share one model with a limit of 65,535 vertices. The mod list shows each lobby mod's vertices and how much of the lobby is used.
+- Installing a lobby mod that will not fit with the ones you have on now warns you first, saying how much room it needs and how much is free.
+- If a lobby build runs out of room, the lobby mod you just added is switched off again and Echo Mods says which one did not fit with which (before, every Play tried the build again). Your lobby stays as it was.
+- Two lobby mods that use the same material name no longer get mixed up (one's surfaces were added twice and its textures replaced the other's).
+
 **v1.1.6**
 - Fixes a crash at game start with lobby mods plus Remove Lobby Culling: the plugins that switch off culling could patch the same game function at the same moment. They now take turns. Echo Mods replaces an older EchoLobby.dll the next time you press Play.
 

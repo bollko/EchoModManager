@@ -12,6 +12,13 @@ This repository holds the releases. Echo Mods is not made by or affiliated with 
 
 ## What's new
 
+**v1.2.0**
+- Servers: each profile can pick which server Echo connects to, the community servers (EchoVRCE / EVR Lounge) or a community-run server for custom game modes. Playing the profile switches to it; your EchoVRCE setup is kept and comes back when a profile picks it.
+- Log in with Discord (Settings, Servers) to fill in your Discord ID and to see the Echo servers of the Discord servers you are in: **Add** sets one up in a click. Your list of Discord servers is only checked on your PC and never sent anywhere.
+- Adding a server by hand: name, address, server key and your Discord ID. Echo Mods makes up the server's password for you; if you have played there before, enter the one you used (or set it later with the **Password** button).
+- Gameplay mods made for game-mode servers (such as Echo Augments) cannot be switched on together with the community servers: Echo Mods says so instead.
+- Echo running from another folder (for example a game server you host) no longer counts as "Echo VR is running" for your install.
+
 **v1.1.7**
 - Room in the lobby: all lobby mods share one model with a limit of 65,535 vertices. The mod list shows each lobby mod's vertices and how much of the lobby is used.
 - Installing a lobby mod that will not fit with the ones you have on now warns you first, saying how much room it needs and how much is free.
